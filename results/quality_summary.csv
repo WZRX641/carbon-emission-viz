@@ -1,0 +1,2 @@
+rows_before,rows_after,dropped_rows,cities,sectors,date_min,date_max,invalid_dates,invalid_values,rows_with_missing_core,duplicate_rows_before_drop,negative_values_reported,value_min,value_max
+623025,623025,0,45,5,2019-01-01,2026-07-31,0,0,0,0,0,0.0,1668.12

@@ -1,0 +1,45 @@
+# =============================================================
+# 全球城市碳排放分析与可视化 —— 统一配置（E 集成版）
+# 所有路径均为相对项目根目录，不写死本机绝对路径，换机器可复现。
+# 数据路径均可在运行时用命令行参数覆盖（见 run_pipeline.py --help）。
+# =============================================================
+
+# ---- E 统一管线（run_pipeline.py）路径配置 ----
+pipeline:
+  # 数据清洗原始数据：Carbon Monitor Cities 下载的 CSV（或包含多个 CSV 的目录）
+  raw_input: "data/raw"
+  # 数据清洗输出（可视化页面与挖掘分析共用）
+  a_output_csv: "data/carbonmonitor_clean.csv"
+  # 统计分析结果目录（页面直接读取）
+  results_dir: "results"
+  # 文档目录（B/D 自动生成说明文档）
+  docs_dir: "docs"
+  # 城市→国家映射表（A 提供；A 清洗输出无 country 列时由 D 的 ingest_a 回填）
+  city_country_map: "data/city_country_map.csv"
+
+# ---- 数据清洗 ----
+data:
+  clean_input: "data/processed/clean_data.csv"
+  required_columns: ["city", "country", "date", "year", "month", "co2_emission"]
+  optional_columns: ["sector"]
+
+results_dir: "results"
+random_state: 42
+
+clustering:
+  k_range: [2, 10]
+  default_k: null
+
+forecast:
+  enabled: true           # E 集成版默认开启预测（页面需要 forecast_results.csv）
+  top_n_cities: 5
+  test_years: 1
+
+# D 输出文件名（C 读取这些 CSV 作图）
+outputs:
+  city_features: "city_features.csv"
+  city_clusters: "city_clusters.csv"
+  cluster_evaluation: "cluster_evaluation.csv"
+  cluster_profiles: "cluster_profiles.csv"
+  forecast_results: "forecast_results.csv"
+  forecast_metrics: "forecast_metrics.csv"

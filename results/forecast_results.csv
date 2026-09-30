@@ -1,0 +1,121 @@
+city,date,split,y_true,y_pred
+Shanghai,2023-01-01,test,461.45,464.01
+Shanghai,2023-02-01,test,565.94,557.3
+Shanghai,2023-03-01,test,583.76,594.19
+Shanghai,2023-04-01,test,615.01,609.39
+Shanghai,2023-05-01,test,612.91,582.74
+Shanghai,2023-06-01,test,566.2,551.27
+Shanghai,2023-07-01,test,508.99,493.29
+Shanghai,2023-08-01,test,429.16,417.99
+Shanghai,2023-09-01,test,378.24,388.42
+Shanghai,2023-10-01,test,368.65,374.73
+Shanghai,2023-11-01,test,354.25,376.38
+Shanghai,2023-12-01,test,401.06,421.85
+New York,2023-01-01,test,367.91,396.29
+New York,2023-02-01,test,424.97,462.6
+New York,2023-03-01,test,548.32,515.07
+New York,2023-04-01,test,574.36,570.34
+New York,2023-05-01,test,599.04,581.01
+New York,2023-06-01,test,517.46,562.45
+New York,2023-07-01,test,541.5,493.71
+New York,2023-08-01,test,460.22,447.2
+New York,2023-09-01,test,361.26,389.21
+New York,2023-10-01,test,325.23,353.2
+New York,2023-11-01,test,319.15,341.91
+New York,2023-12-01,test,333.96,340.74
+Beijing,2023-01-01,test,423.39,425.84
+Beijing,2023-02-01,test,475.85,506.93
+Beijing,2023-03-01,test,528.47,568.02
+Beijing,2023-04-01,test,598.71,571.99
+Beijing,2023-05-01,test,581.24,554.45
+Beijing,2023-06-01,test,518.29,496.0
+Beijing,2023-07-01,test,410.29,469.9
+Beijing,2023-08-01,test,357.62,342.36
+Beijing,2023-09-01,test,300.15,289.25
+Beijing,2023-10-01,test,281.77,271.96
+Beijing,2023-11-01,test,313.9,313.25
+Beijing,2023-12-01,test,358.03,368.54
+Los Angeles,2023-01-01,test,378.72,382.0
+Los Angeles,2023-02-01,test,414.32,396.3
+Los Angeles,2023-03-01,test,409.72,470.77
+Los Angeles,2023-04-01,test,490.98,480.8
+Los Angeles,2023-05-01,test,472.03,505.05
+Los Angeles,2023-06-01,test,477.43,470.11
+Los Angeles,2023-07-01,test,493.0,463.23
+Los Angeles,2023-08-01,test,411.58,390.22
+Los Angeles,2023-09-01,test,326.55,354.56
+Los Angeles,2023-10-01,test,281.91,308.81
+Los Angeles,2023-11-01,test,285.8,310.21
+Los Angeles,2023-12-01,test,278.14,312.49
+Tokyo,2023-01-01,test,362.62,340.53
+Tokyo,2023-02-01,test,389.51,383.75
+Tokyo,2023-03-01,test,406.96,449.99
+Tokyo,2023-04-01,test,442.53,468.88
+Tokyo,2023-05-01,test,477.82,471.55
+Tokyo,2023-06-01,test,476.93,465.45
+Tokyo,2023-07-01,test,467.32,450.55
+Tokyo,2023-08-01,test,439.36,379.83
+Tokyo,2023-09-01,test,360.09,342.2
+Tokyo,2023-10-01,test,312.59,313.25
+Tokyo,2023-11-01,test,288.13,310.48
+Tokyo,2023-12-01,test,329.09,309.11
+Shanghai,2024-01-01,future,,460.42
+Shanghai,2024-02-01,future,,567.11
+Shanghai,2024-03-01,future,,590.95
+Shanghai,2024-04-01,future,,615.46
+Shanghai,2024-05-01,future,,602.22
+Shanghai,2024-06-01,future,,561.95
+Shanghai,2024-07-01,future,,503.16
+Shanghai,2024-08-01,future,,421.54
+Shanghai,2024-09-01,future,,378.44
+Shanghai,2024-10-01,future,,362.87
+Shanghai,2024-11-01,future,,361.42
+Shanghai,2024-12-01,future,,408.57
+New York,2024-01-01,future,,373.63
+New York,2024-02-01,future,,442.71
+New York,2024-03-01,future,,536.5
+New York,2024-04-01,future,,566.34
+New York,2024-05-01,future,,579.88
+New York,2024-06-01,future,,537.41
+New York,2024-07-01,future,,521.98
+New York,2024-08-01,future,,452.96
+New York,2024-09-01,future,,374.06
+New York,2024-10-01,future,,335.12
+New York,2024-11-01,future,,325.01
+New York,2024-12-01,future,,331.71
+Beijing,2024-01-01,future,,423.98
+Beijing,2024-02-01,future,,490.12
+Beijing,2024-03-01,future,,561.0
+Beijing,2024-04-01,future,,582.18
+Beijing,2024-05-01,future,,569.62
+Beijing,2024-06-01,future,,498.84
+Beijing,2024-07-01,future,,432.79
+Beijing,2024-08-01,future,,351.96
+Beijing,2024-09-01,future,,295.79
+Beijing,2024-10-01,future,,279.35
+Beijing,2024-11-01,future,,314.3
+Beijing,2024-12-01,future,,363.5
+Los Angeles,2024-01-01,future,,381.16
+Los Angeles,2024-02-01,future,,407.13
+Los Angeles,2024-03-01,future,,431.88
+Los Angeles,2024-04-01,future,,479.51
+Los Angeles,2024-05-01,future,,485.47
+Los Angeles,2024-06-01,future,,480.93
+Los Angeles,2024-07-01,future,,482.95
+Los Angeles,2024-08-01,future,,403.78
+Los Angeles,2024-09-01,future,,335.53
+Los Angeles,2024-10-01,future,,286.06
+Los Angeles,2024-11-01,future,,283.65
+Los Angeles,2024-12-01,future,,282.21
+Tokyo,2024-01-01,future,,353.28
+Tokyo,2024-02-01,future,,386.76
+Tokyo,2024-03-01,future,,418.4
+Tokyo,2024-04-01,future,,460.77
+Tokyo,2024-05-01,future,,473.4
+Tokyo,2024-06-01,future,,472.89
+Tokyo,2024-07-01,future,,461.19
+Tokyo,2024-08-01,future,,418.25
+Tokyo,2024-09-01,future,,356.64
+Tokyo,2024-10-01,future,,312.52
+Tokyo,2024-11-01,future,,309.74
+Tokyo,2024-12-01,future,,317.35

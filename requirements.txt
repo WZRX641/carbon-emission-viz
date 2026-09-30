@@ -1,0 +1,18 @@
+# 全球城市碳排放分析与可视化 —— 统一依赖（E 整合 A/B/C/D 各模块）
+# Python >= 3.10
+
+# A/B：数据处理与统计
+pandas>=2.0,<3
+numpy>=1.23
+
+# D：聚类与预测
+scikit-learn>=1.2
+matplotlib>=3.6
+pyyaml>=6.0
+
+# C：可视化页面
+streamlit>=1.30
+plotly>=5.18
+
+# E：测试
+pytest>=7.4
